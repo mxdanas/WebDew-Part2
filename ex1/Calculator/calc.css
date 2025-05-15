@@ -1,0 +1,36 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    width: fit-content;
+    margin: 50px auto;
+    background-color: blueviolet;
+   
+}
+.container h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+.container input{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 8px;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container button{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 20px;
+    border:1px solid white;
+}
+.container button:hover{
+    background-color: darkgray;
+    color: aliceblue;
+}

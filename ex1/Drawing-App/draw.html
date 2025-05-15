@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing app</title>
+<link rel="stylesheet" href="draw.css">
+
+</head>
+<body>
+    <div class="container">
+      <h1>Simple Drawing App</h1>
+      <select id="shapeSelector" class="select">
+        <option value="" disabled selected>Select a shape</option>
+        <option value="line">Line</option>
+        <option value="rectangle">Rectangle</option>
+        <option value="circle">Circle</option>
+      </select>
+      <label for="fillColor">Shape Fill:</label>
+      <input type="color" id="fillColor" value="#000000">
+      <br>
+      <canvas id="drawingCanvas" width="800" height="500"></canvas>
+    </div>
+
+  <script src="draw.js"></script>
+  
+  
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "server": {
+    "baseDir": ["public", "dist"]
+  },
+  "startPath": "/login.html",
+  "files": ["./public/**/*.{html,css,js}", "./dist/**/*.js"]
+}

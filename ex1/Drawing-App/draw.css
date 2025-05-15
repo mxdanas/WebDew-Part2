@@ -1,0 +1,31 @@
+body{
+    background: #987284 ;
+  }
+  canvas {
+    border: 1px solid black;
+    cursor: crosshair;
+    background: white;
+  }
+  .container{
+    font-family: Arial, Helvetica, sans-serif;
+    width: fit-content;
+    margin: 30px auto;
+  }
+  .container h1{
+    text-align: center;
+    color: aliceblue;
+  }
+  select{
+    font-family: Arial;
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 20px;
+    background: white;
+    border: 1px solid cornflowerblue;
+  }
+  label{
+    color: antiquewhite;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 10px ;
+  }

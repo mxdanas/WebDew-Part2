@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+h1{
+    text-align: center;
+}
+
+.frame{
+    width: fit-content;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px grey;
+}
+.completed{
+    text-decoration: line-through;
+    color: gray;
+}
+.inputBox{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px;
+    flex: 1;
+}
+.addBtn{
+    background-color: green;
+    color: aliceblue;
+    padding: 13px 15px;
+    align-self: self-end;
+}
+.li{
+    margin-top: 8px;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.li span{
+    flex-grow: 1;
+    margin-left: 10px;
+}
+.li .delCss{
+    background-color: red;
+    color: whitesmoke;
+    padding: 5px 15px;
+}
