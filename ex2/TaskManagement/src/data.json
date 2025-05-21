@@ -22,5 +22,11 @@
     "title": "Wake Up ",
     "description": "Wake up before 6 am.",
     "completed": false
+  },
+  {
+    "id": 1747792648542,
+    "title": "New Task 2",
+    "description": "Just an example..!",
+    "completed": false
   }
 ]

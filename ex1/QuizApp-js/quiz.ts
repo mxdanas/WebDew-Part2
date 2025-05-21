@@ -105,7 +105,7 @@ const nextBtn  = document.getElementById('next-btn') as HTMLButtonElement;
 let currentQuestionIndex = 0;
 let score = 0;
 
-function startQuiz() {
+function startQuiz():void {
     currentQuestionIndex = 0;
     score = 0;
     if (nextBtn) {
